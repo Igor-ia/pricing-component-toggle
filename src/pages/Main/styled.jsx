@@ -8,12 +8,25 @@ height: 100%;
     right: 0;
     top: 0;
     position: absolute;
+
+
+    @media screen and (max-width: 810px){
+        object-fit: cover;
+        width: 35%;
+        object-position: left top;
+    }
 }
 .bg-bottom{
     height: 300px;
     left: 0;
     bottom: 0;
     position: absolute;
+}
+
+@media screen and (max-width: 810px){
+    .desktop{
+        display: none;
+    }
 }
 `;
 
@@ -74,7 +87,8 @@ button{
 }
 @media screen and (max-width: 810px){
     flex-direction: column;
-
+    
+    
     div{
         width: 50%;
         margin-bottom: 10px;

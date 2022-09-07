@@ -44,7 +44,7 @@ export default function Main() {
                     cardPrice={priceType === "Annualy" ? "399.99" : "39.99"}
                     cardContent={['2 TB Storage', '10 Users  Allowed', 'Send up to 20 GB']} />
             </CardCollection>
-            <img src={BgBottom} className="bg-bottom" />
+            <img src={BgBottom} className="bg-bottom desktop" />
         </Container>
     )
 }
